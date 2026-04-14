@@ -1,0 +1,362 @@
+{
+  "ru": {
+    "meta": {
+      "title": "Armenia 70 | Гражданская инициатива",
+      "description": "Гражданская инициатива для повышения явки и вовлеченности: спокойно, прозрачно, без давления."
+    },
+    "header": {
+      "brand": "Armenia 70",
+      "whitePaper": "White Paper",
+      "faq": "FAQ",
+      "contacts": "Контакты",
+      "language": "Язык"
+    },
+    "hero": {
+      "title": "Armenia 70",
+      "subtitle": "Армения идет на выборы. Диаспора поддерживает участие.",
+      "description": "Спокойно, прозрачно, без давления. Гражданская инициатива по повышению явки и вовлеченности.",
+      "primaryCta": {
+        "label": "Я в Армении",
+        "href": "#for-armenia"
+      },
+      "secondaryCtas": [
+        {
+          "label": "Я в диаспоре",
+          "href": "#for-diaspora"
+        },
+        {
+          "label": "Стать партнером",
+          "href": "#for-partners"
+        }
+      ]
+    },
+    "audience": {
+      "title": "Для кого проект",
+      "cards": [
+        {
+          "id": "for-armenia",
+          "icon": "armenia",
+          "title": "В Армении",
+          "description": "Подпишитесь на канал и участвуйте. Каждый день: объяснения и активность.",
+          "points": [
+            "12:00 — объяснение",
+            "20:00 — розыгрыш",
+            "Только Telegram"
+          ],
+          "cta": "Перейти в канал",
+          "href": "https://t.me/armenia70"
+        },
+        {
+          "id": "for-diaspora",
+          "icon": "diaspora",
+          "title": "Диаспора",
+          "description": "Поддержка без вмешательства. Вы помогаете увеличить охват и участие.",
+          "points": [],
+          "cta": "Поддержать проект",
+          "href": "#contacts"
+        },
+        {
+          "id": "for-partners",
+          "icon": "partners",
+          "title": "Партнеры",
+          "description": "Масштабируемая инициатива с прозрачной моделью.",
+          "points": [
+            "Охват",
+            "Метрики",
+            "Активность"
+          ],
+          "cta": "Стать партнером",
+          "href": "#contacts"
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Как это работает",
+      "steps": [
+        "Подписка в Telegram",
+        "Ежедневные объяснения",
+        "Участие в активности",
+        "Вовлеченность до выборов"
+      ]
+    },
+    "whyItWorks": {
+      "title": "Почему это работает",
+      "items": [
+        {
+          "title": "Просто",
+          "description": "Один привычный канал: Telegram."
+        },
+        {
+          "title": "Понятно",
+          "description": "Ежедневные объяснения без перегруза."
+        },
+        {
+          "title": "Регулярно",
+          "description": "Постоянный контакт и ритм каждый день."
+        },
+        {
+          "title": "Масштабируемо",
+          "description": "Модель легко адаптируется под много языков."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Языки и каналы",
+      "cta": "Перейти",
+      "items": [
+        {
+          "flag": "🇦🇲",
+          "name": "Armenia",
+          "href": "https://t.me/armenia70"
+        },
+        {
+          "flag": "🇷🇺",
+          "name": "Russian",
+          "href": "https://t.me/armenia70_ru"
+        },
+        {
+          "flag": "🇬🇧",
+          "name": "English",
+          "href": "https://t.me/armenia70_en"
+        },
+        {
+          "flag": "🇫🇷",
+          "name": "Français",
+          "href": "https://t.me/armenia70_fr"
+        },
+        {
+          "flag": "🇪🇸",
+          "name": "Español",
+          "href": "https://t.me/armenia70_es"
+        },
+        {
+          "flag": "🇦🇪",
+          "name": "العربية",
+          "href": "https://t.me/armenia70_ar"
+        },
+        {
+          "flag": "🇮🇷",
+          "name": "فارسی",
+          "href": "https://t.me/armenia70_fa"
+        },
+        {
+          "flag": "🇹🇷",
+          "name": "Türkçe",
+          "href": "https://t.me/armenia70_tr"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "Что это за проект?",
+          "answer": "Armenia 70 — гражданская инициатива по повышению явки и осознанного участия через ежедневную коммуникацию в Telegram."
+        },
+        {
+          "question": "Это политика?",
+          "answer": "Проект не продвигает конкретные партии или кандидатов. Фокус — гражданское участие и информированность."
+        },
+        {
+          "question": "Как участвовать?",
+          "answer": "Выберите свой сценарий: участник в Армении, поддержка из диаспоры или партнерское сотрудничество."
+        },
+        {
+          "question": "Как поддержать?",
+          "answer": "Поддержка возможна через распространение контента, помощь с охватом и партнерские форматы."
+        },
+        {
+          "question": "Где документы?",
+          "answer": "Ключевые документы и обновления публикуются в White Paper и официальных каналах проекта."
+        }
+      ]
+    },
+    "footer": {
+      "brand": "Armenia 70",
+      "whitePaper": "White Paper",
+      "contacts": "Контакты",
+      "email": "hello@armenia70.org",
+      "telegram": "@armenia70"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "Armenia 70 | Civic Initiative",
+      "description": "A civic initiative to increase turnout and participation: calm, transparent, and pressure-free."
+    },
+    "header": {
+      "brand": "Armenia 70",
+      "whitePaper": "White Paper",
+      "faq": "FAQ",
+      "contacts": "Contacts",
+      "language": "Language"
+    },
+    "hero": {
+      "title": "Armenia 70",
+      "subtitle": "Armenia is heading to elections. The diaspora supports participation.",
+      "description": "Calm, transparent, no pressure. A civic initiative for turnout and engagement.",
+      "primaryCta": {
+        "label": "I am in Armenia",
+        "href": "#for-armenia"
+      },
+      "secondaryCtas": [
+        {
+          "label": "I am in diaspora",
+          "href": "#for-diaspora"
+        },
+        {
+          "label": "Become a partner",
+          "href": "#for-partners"
+        }
+      ]
+    },
+    "audience": {
+      "title": "Who this is for",
+      "cards": [
+        {
+          "id": "for-armenia",
+          "icon": "armenia",
+          "title": "In Armenia",
+          "description": "Subscribe and participate. Every day includes context and activity.",
+          "points": [
+            "12:00 — daily explainer",
+            "20:00 — daily giveaway",
+            "Telegram only"
+          ],
+          "cta": "Go to channel",
+          "href": "https://t.me/armenia70"
+        },
+        {
+          "id": "for-diaspora",
+          "icon": "diaspora",
+          "title": "Diaspora",
+          "description": "Support without interference. You help increase reach and participation.",
+          "points": [],
+          "cta": "Support project",
+          "href": "#contacts"
+        },
+        {
+          "id": "for-partners",
+          "icon": "partners",
+          "title": "Partners",
+          "description": "A scalable initiative with a transparent operating model.",
+          "points": [
+            "Reach",
+            "Metrics",
+            "Activity"
+          ],
+          "cta": "Become a partner",
+          "href": "#contacts"
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        "Subscribe in Telegram",
+        "Get daily explainers",
+        "Join daily activity",
+        "Stay engaged until election day"
+      ]
+    },
+    "whyItWorks": {
+      "title": "Why it works",
+      "items": [
+        {
+          "title": "Simple",
+          "description": "One familiar channel: Telegram."
+        },
+        {
+          "title": "Clear",
+          "description": "Daily explainers with minimal noise."
+        },
+        {
+          "title": "Consistent",
+          "description": "A predictable daily engagement rhythm."
+        },
+        {
+          "title": "Scalable",
+          "description": "The model expands naturally across languages."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages and channels",
+      "cta": "Open",
+      "items": [
+        {
+          "flag": "🇦🇲",
+          "name": "Armenia",
+          "href": "https://t.me/armenia70"
+        },
+        {
+          "flag": "🇷🇺",
+          "name": "Russian",
+          "href": "https://t.me/armenia70_ru"
+        },
+        {
+          "flag": "🇬🇧",
+          "name": "English",
+          "href": "https://t.me/armenia70_en"
+        },
+        {
+          "flag": "🇫🇷",
+          "name": "Français",
+          "href": "https://t.me/armenia70_fr"
+        },
+        {
+          "flag": "🇪🇸",
+          "name": "Español",
+          "href": "https://t.me/armenia70_es"
+        },
+        {
+          "flag": "🇦🇪",
+          "name": "العربية",
+          "href": "https://t.me/armenia70_ar"
+        },
+        {
+          "flag": "🇮🇷",
+          "name": "فارسی",
+          "href": "https://t.me/armenia70_fa"
+        },
+        {
+          "flag": "🇹🇷",
+          "name": "Türkçe",
+          "href": "https://t.me/armenia70_tr"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "question": "What is this project?",
+          "answer": "Armenia 70 is a civic initiative focused on turnout and informed participation through daily Telegram communication."
+        },
+        {
+          "question": "Is this political campaigning?",
+          "answer": "The project does not promote specific parties or candidates. The focus is civic participation and awareness."
+        },
+        {
+          "question": "How can I participate?",
+          "answer": "Choose your path: participant in Armenia, support from diaspora, or partnership."
+        },
+        {
+          "question": "How can I support?",
+          "answer": "You can support by amplifying content, helping with reach, and joining partner formats."
+        },
+        {
+          "question": "Where can I find documents?",
+          "answer": "Core documents and updates are published via White Paper and official project channels."
+        }
+      ]
+    },
+    "footer": {
+      "brand": "Armenia 70",
+      "whitePaper": "White Paper",
+      "contacts": "Contacts",
+      "email": "hello@armenia70.org",
+      "telegram": "@armenia70"
+    }
+  }
+}

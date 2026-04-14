@@ -1,3 +1,4 @@
+import { AudienceQuick } from "@/components/AudienceQuick";
 import { CardsSection } from "@/components/CardsSection";
 import { FadeIn } from "@/components/FadeIn";
 import { Footer } from "@/components/Footer";
@@ -17,6 +18,10 @@ export default function Home() {
       <main className="relative z-10">
         <FadeIn>
           <HeroTop />
+        </FadeIn>
+
+        <FadeIn>
+          <AudienceQuick />
         </FadeIn>
 
         <FadeIn>

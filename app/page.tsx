@@ -1,50 +1,48 @@
-"use client";
-
-import { useMemo, useState } from "react";
-import { AudienceCards } from "@/components/AudienceCards";
-import { FAQ } from "@/components/FAQ";
+import { CardsSection } from "@/components/CardsSection";
 import { FadeIn } from "@/components/FadeIn";
 import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { HowItWorks } from "@/components/HowItWorks";
-import { LanguageGrid } from "@/components/LanguageGrid";
-import { WhyItWorks } from "@/components/WhyItWorks";
-import { getContent, type Locale } from "@/lib/content";
+import { HeroTop } from "@/components/HeroTop";
+import { LanguageSection } from "@/components/LanguageSection";
+import { Metrics } from "@/components/Metrics";
+import { RoadmapSlide } from "@/components/RoadmapSlide";
+import { SecondaryHero } from "@/components/SecondaryHero";
 
 export default function Home() {
-  const [locale, setLocale] = useState<Locale>("ru");
-  const content = useMemo(() => getContent(locale), [locale]);
-
   return (
-    <div className="relative min-h-screen overflow-x-clip bg-[#F9F7F4] text-[#1F1F1F]">
-      <Header content={content.header} locale={locale} onLocaleChange={setLocale} />
-      <main>
+    <div className="a70-page relative min-h-screen overflow-x-clip">
+      <div className="a70-wave a70-wave-1" aria-hidden="true" />
+      <div className="a70-wave a70-wave-2" aria-hidden="true" />
+      <div className="a70-wave a70-wave-3" aria-hidden="true" />
+
+      <main className="relative z-10">
         <FadeIn>
-          <Hero content={content.hero} />
+          <HeroTop />
         </FadeIn>
 
         <FadeIn>
-          <AudienceCards content={content.audience} />
+          <LanguageSection />
         </FadeIn>
 
         <FadeIn>
-          <HowItWorks content={content.howItWorks} />
+          <CardsSection />
         </FadeIn>
 
         <FadeIn>
-          <WhyItWorks content={content.whyItWorks} />
+          <SecondaryHero />
         </FadeIn>
 
         <FadeIn>
-          <LanguageGrid content={content.languages} />
+          <Metrics />
         </FadeIn>
 
         <FadeIn>
-          <FAQ content={content.faq} />
+          <RoadmapSlide />
         </FadeIn>
       </main>
-      <Footer content={content.footer} />
+
+      <FadeIn>
+        <Footer />
+      </FadeIn>
     </div>
   );
 }

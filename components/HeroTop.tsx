@@ -32,6 +32,24 @@ export function HeroTop() {
           Только единство.
         </p>
 
+        <p className="mt-5 text-[18px] leading-[1.35] text-[#7f7f86] sm:text-[26px]">
+          Глобальная инициатива для
+          <br />
+          достижения 70% явки на выборах
+        </p>
+
+        <div className="a70-surface mt-5 grid w-full max-w-3xl gap-0 overflow-hidden p-0 md:grid-cols-2">
+          <article className="px-5 py-5 text-center sm:px-7 sm:py-6 md:border-r md:border-[#ebe4d8]">
+            <p className="text-[14px] text-[#85858d] sm:text-[18px]">Общий призовой фонд:</p>
+            <p className="mt-1.5 text-[26px] font-semibold tracking-tight text-[#3a3a40] sm:text-[34px]">$3,740,000</p>
+          </article>
+
+          <article className="px-5 py-5 text-center sm:px-7 sm:py-6">
+            <p className="text-[14px] text-[#85858d] sm:text-[18px]">Участников:</p>
+            <p className="mt-1.5 text-[26px] font-semibold tracking-tight text-[#3a3a40] sm:text-[34px]">376,482</p>
+          </article>
+        </div>
+
         <a
           href="#audience-quick"
           className="a70-btn-primary mt-6 min-h-[50px] min-w-[240px] px-8 py-3 text-[18px] sm:min-h-[58px] sm:min-w-[300px] sm:text-[24px]"

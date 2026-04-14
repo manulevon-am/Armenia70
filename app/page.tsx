@@ -1,12 +1,9 @@
 import { AudienceQuick } from "@/components/AudienceQuick";
-import { CardsSection } from "@/components/CardsSection";
 import { FadeIn } from "@/components/FadeIn";
 import { Footer } from "@/components/Footer";
 import { HeroTop } from "@/components/HeroTop";
 import { LanguageSection } from "@/components/LanguageSection";
-import { Metrics } from "@/components/Metrics";
 import { RoadmapSlide } from "@/components/RoadmapSlide";
-import { SecondaryHero } from "@/components/SecondaryHero";
 
 export default function Home() {
   return (
@@ -26,18 +23,6 @@ export default function Home() {
 
         <FadeIn>
           <LanguageSection />
-        </FadeIn>
-
-        <FadeIn>
-          <CardsSection />
-        </FadeIn>
-
-        <FadeIn>
-          <SecondaryHero />
-        </FadeIn>
-
-        <FadeIn>
-          <Metrics />
         </FadeIn>
 
         <FadeIn>

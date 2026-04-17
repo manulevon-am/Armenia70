@@ -10,6 +10,12 @@ export function ProjectOverview() {
             <p className="text-[20px] leading-[1.55] text-[#595a61] sm:text-[24px]">
               Проект АРМЕНИЯ70 — это <span className="font-semibold text-[#34353b]">просветительская гражданская инициатива.</span>
             </p>
+            <a
+              href="#audience-quick"
+              className="a70-btn-primary mt-5 min-h-[48px] px-6 py-3 text-[15px] font-semibold uppercase tracking-[0.06em] sm:min-h-[54px] sm:text-[17px]"
+            >
+              Присоединиться к проекту
+            </a>
           </div>
 
           <div className="rounded-[22px] border border-[#eadfca] bg-[linear-gradient(180deg,rgba(249,238,210,0.72)_0%,rgba(250,245,235,0.9)_100%)] px-4 py-4 sm:px-5">
@@ -63,7 +69,7 @@ export function ProjectOverview() {
 
           <div className="grid gap-4 lg:grid-cols-2">
             <article className="rounded-[22px] border border-[#ece2d4] bg-white/70 px-4 py-4 sm:px-5">
-              <p className="text-[17px] font-semibold tracking-tight text-[#34353b] sm:text-[19px]">Розыгрыши и ценные призы 🎁</p>
+              <p className="text-[17px] font-semibold tracking-tight text-[#34353b] sm:text-[19px]">Розыгрыши и ценные призы</p>
               <ul className="mt-3 space-y-2 text-[15px] leading-[1.6] text-[#5d5f66] sm:text-[17px]">
                 <li className="flex gap-2.5">
                   <span className={bulletClassName} />
@@ -84,7 +90,7 @@ export function ProjectOverview() {
                 </li>
                 <li className="flex gap-2.5">
                   <span className={bulletClassName} />
-                  <span>Скоро будут очень ценные призы.</span>
+                  <span className="font-semibold text-[#34353b]">Скоро будут очень ценные призы 🎁.</span>
                 </li>
               </ul>
             </article>
@@ -98,7 +104,7 @@ export function ProjectOverview() {
                   <span>
                     Вы подписаны на{" "}
                     <a href="https://t.me/@miasin_new2025" className={linkClassName} target="_blank" rel="noreferrer">
-                      основной канал: @miasin_new2025
+                      основной канал
                     </a>
                   </span>
                 </li>

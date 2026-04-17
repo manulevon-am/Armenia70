@@ -9,7 +9,7 @@ export function HeroTop() {
           <Image src={logo} alt="Golden emblem" width={144} height={144} className="h-full w-full object-cover" />
         </div>
 
-        <p className="font-display text-[26px] leading-none tracking-tight text-[#343434] sm:text-[34px]">АРМЕНИЯ70</p>
+        <p className="text-[22px] font-semibold leading-none tracking-[0.08em] text-[#343434] sm:text-[28px]">АРМЕНИЯ70</p>
 
         <h1 className="font-display text-[34px] leading-[1.04] tracking-tight text-[#2f2f35] sm:text-[48px]">Один народ. Одно дело.</h1>
 
@@ -30,18 +30,6 @@ export function HeroTop() {
           <br />
           достижения 70% явки на выборах
         </p>
-
-        <div className="a70-surface mt-5 grid w-full max-w-3xl gap-0 overflow-hidden p-0 md:grid-cols-2">
-          <article className="px-5 py-5 text-center sm:px-7 sm:py-6 md:border-r md:border-[#ebe4d8]">
-            <p className="text-[14px] text-[#85858d] sm:text-[18px]">Общий призовой фонд:</p>
-            <p className="mt-1.5 text-[26px] font-semibold tracking-tight text-[#3a3a40] sm:text-[34px]">$3,740,000</p>
-          </article>
-
-          <article className="px-5 py-5 text-center sm:px-7 sm:py-6">
-            <p className="text-[14px] text-[#85858d] sm:text-[18px]">Участников:</p>
-            <p className="mt-1.5 text-[26px] font-semibold tracking-tight text-[#3a3a40] sm:text-[34px]">376,482</p>
-          </article>
-        </div>
 
         <a
           href="#project-overview"

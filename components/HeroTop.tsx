@@ -9,7 +9,7 @@ export function HeroTop() {
           <div className="h-12 w-12 overflow-hidden rounded-full border border-[#d8c8a8] shadow-[0_8px_24px_rgba(80,58,21,0.18)] sm:h-14 sm:w-14">
             <Image src={logo} alt="Armenia 70" width={64} height={64} priority className="h-full w-full object-cover" />
           </div>
-          <span className="font-display text-[26px] leading-none tracking-tight text-[#343434] sm:text-[34px]">Armenia 70</span>
+          <span className="font-display text-[26px] leading-none tracking-tight text-[#343434] sm:text-[34px]">АРМЕНИЯ70</span>
         </div>
       </div>
 
@@ -17,6 +17,8 @@ export function HeroTop() {
         <div className="mb-6 h-20 w-20 overflow-hidden rounded-full border border-[#d8c8a8] shadow-[0_10px_26px_rgba(80,58,21,0.16)] sm:mb-8 sm:h-24 sm:w-24">
           <Image src={logo} alt="Golden emblem" width={144} height={144} className="h-full w-full object-cover" />
         </div>
+
+        <p className="font-display text-[26px] leading-none tracking-tight text-[#343434] sm:text-[34px]">АРМЕНИЯ70</p>
 
         <h1 className="font-display text-[34px] leading-[1.04] tracking-tight text-[#2f2f35] sm:text-[48px]">Один народ. Одно дело.</h1>
 
@@ -27,9 +29,9 @@ export function HeroTop() {
         </p>
 
         <p className="mt-4 text-[18px] leading-[1.5] text-[#7f7f86] sm:text-[26px]">
-          Без давления. Без сложностей.
+          Когда явка превышает 70% — результат принимают все.
           <br />
-          Только единство.
+          Стань частью Армения 70
         </p>
 
         <p className="mt-5 text-[18px] leading-[1.35] text-[#7f7f86] sm:text-[26px]">
@@ -51,10 +53,10 @@ export function HeroTop() {
         </div>
 
         <a
-          href="#audience-quick"
+          href="#project-overview"
           className="a70-btn-primary mt-6 min-h-[50px] min-w-[240px] px-8 py-3 text-[18px] sm:min-h-[58px] sm:min-w-[300px] sm:text-[24px]"
         >
-          Присоединиться сейчас
+          Подробнее
         </a>
 
         <div className="mt-6 flex items-center gap-2.5 sm:mt-8 sm:gap-3">

@@ -3,6 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { Footer } from "@/components/Footer";
 import { HeroTop } from "@/components/HeroTop";
 import { LanguageSection } from "@/components/LanguageSection";
+import { ProjectOverview } from "@/components/ProjectOverview";
 import { RoadmapSlide } from "@/components/RoadmapSlide";
 
 export default function Home() {
@@ -15,6 +16,10 @@ export default function Home() {
       <main className="relative z-10">
         <FadeIn>
           <HeroTop />
+        </FadeIn>
+
+        <FadeIn>
+          <ProjectOverview />
         </FadeIn>
 
         <FadeIn>

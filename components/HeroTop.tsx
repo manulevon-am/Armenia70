@@ -42,9 +42,7 @@ export function HeroTop({ content, locale, localeOptions, onLocaleChange }: Hero
 
         <p className="mb-6 text-[34px] font-bold leading-none tracking-[0.08em] text-[#343434] sm:mb-8 sm:text-[44px]">{content.brand}</p>
 
-        <h1 className="font-display text-[40px] leading-[1.04] tracking-tight text-[#2f2f35] sm:text-[56px]">{content.heading}</h1>
-
-        <p className="mt-7 font-display text-[29px] leading-[1.26] tracking-tight text-[#3f3f46] sm:mt-9 sm:text-[42px]">
+        <p className="font-display text-[29px] leading-[1.26] tracking-tight text-[#3f3f46] sm:text-[42px]">
           {content.line1}
           <br />
           {content.line2}
@@ -54,12 +52,6 @@ export function HeroTop({ content, locale, localeOptions, onLocaleChange }: Hero
           {content.turnoutLine1}
           <br />
           {content.turnoutLine2}
-        </p>
-
-        <p className="mt-10 text-[19px] leading-[1.45] text-[#7f7f86] sm:mt-12 sm:text-[27px]">
-          {content.initiativeLine1}
-          <br />
-          {content.initiativeLine2}
         </p>
 
         <a

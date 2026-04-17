@@ -123,7 +123,7 @@ export function ProjectOverview({ content }: ProjectOverviewProps) {
 
           <a
             href="#audience-quick"
-            className="a70-btn-primary min-h-[56px] px-8 py-3.5 text-[20px] font-bold uppercase tracking-[0.08em] sm:min-h-[62px] sm:text-[26px]"
+            className="a70-btn-primary mx-auto flex w-fit min-h-[56px] px-8 py-3.5 text-[20px] font-bold uppercase tracking-[0.08em] sm:min-h-[62px] sm:text-[26px]"
           >
             {content.cta}
           </a>

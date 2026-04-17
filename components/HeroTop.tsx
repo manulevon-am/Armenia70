@@ -1,44 +1,75 @@
 import Image from "next/image";
+import type { ChangeEvent } from "react";
 import logo from "@/public/Logo_armenia70.png";
+import type { Locale, SiteContent } from "@/lib/site-content";
 
-export function HeroTop() {
+type HeroTopProps = {
+  content: SiteContent["hero"];
+  locale: Locale;
+  localeOptions: ReadonlyArray<{ code: Locale; label: string }>;
+  onLocaleChange: (locale: Locale) => void;
+};
+
+export function HeroTop({ content, locale, localeOptions, onLocaleChange }: HeroTopProps) {
+  const handleLocaleChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    onLocaleChange(event.target.value as Locale);
+  };
+
   return (
-    <section className="relative mx-auto w-full max-w-6xl px-4 pt-10 sm:px-6 sm:pt-12 lg:px-8">
+    <section className="relative mx-auto w-full max-w-6xl px-4 pt-8 sm:px-6 sm:pt-10 lg:px-8">
+      <div className="mb-8 flex w-full justify-end sm:mb-10">
+        <label className="inline-flex items-center gap-3 rounded-full border border-[#e6dece] bg-white/88 px-4 py-2 shadow-[0_10px_24px_rgba(59,48,30,0.08)] backdrop-blur-sm">
+          <span className="text-[13px] font-medium text-[#7b766d] sm:text-[14px]">{content.languageLabel}</span>
+          <select
+            value={locale}
+            onChange={handleLocaleChange}
+            className="bg-transparent text-[14px] font-semibold text-[#2f2f35] outline-none sm:text-[15px]"
+            aria-label={content.languageLabel}
+          >
+            {localeOptions.map((option) => (
+              <option key={option.code} value={option.code}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+
       <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
-        <div className="mb-6 h-24 w-24 overflow-hidden rounded-full border border-[#d8c8a8] shadow-[0_12px_30px_rgba(80,58,21,0.16)] sm:mb-8 sm:h-28 sm:w-28">
-          <Image src={logo} alt="Golden emblem" width={144} height={144} className="h-full w-full object-cover" />
+        <div className="mb-7 h-28 w-28 overflow-hidden rounded-full border border-[#d8c8a8] shadow-[0_14px_34px_rgba(80,58,21,0.16)] sm:mb-9 sm:h-32 sm:w-32">
+          <Image src={logo} alt="Armenia70 emblem" width={160} height={160} className="h-full w-full object-cover" priority />
         </div>
 
-        <p className="mb-4 text-[28px] font-semibold leading-none tracking-[0.08em] text-[#343434] sm:mb-6 sm:text-[36px]">АРМЕНИЯ70</p>
+        <p className="mb-6 text-[34px] font-bold leading-none tracking-[0.08em] text-[#343434] sm:mb-8 sm:text-[44px]">{content.brand}</p>
 
-        <h1 className="font-display text-[36px] leading-[1.04] tracking-tight text-[#2f2f35] sm:text-[50px]">Один народ. Одно дело.</h1>
+        <h1 className="font-display text-[40px] leading-[1.04] tracking-tight text-[#2f2f35] sm:text-[56px]">{content.heading}</h1>
 
-        <p className="mt-5 font-display text-[28px] leading-[1.2] tracking-tight text-[#3f3f46] sm:mt-6 sm:text-[40px]">
-          Армения — идёт голосовать.
+        <p className="mt-7 font-display text-[29px] leading-[1.26] tracking-tight text-[#3f3f46] sm:mt-9 sm:text-[42px]">
+          {content.line1}
           <br />
-          Диаспора — поддерживает.
+          {content.line2}
         </p>
 
-        <p className="mt-7 text-[18px] font-semibold leading-[1.5] text-[#5f5f66] sm:mt-9 sm:text-[26px]">
-          Когда явка превышает 70% — результат принимают все.
+        <p className="mt-10 text-[19px] font-semibold leading-[1.6] text-[#5f5f66] sm:mt-12 sm:text-[27px]">
+          {content.turnoutLine1}
           <br />
-          Стань частью АРМЕНИЯ70
+          {content.turnoutLine2}
         </p>
 
-        <p className="mt-7 text-[18px] leading-[1.35] text-[#7f7f86] sm:mt-9 sm:text-[26px]">
-          Глобальная инициатива для
+        <p className="mt-10 text-[19px] leading-[1.45] text-[#7f7f86] sm:mt-12 sm:text-[27px]">
+          {content.initiativeLine1}
           <br />
-          достижения 70% явки на выборах
+          {content.initiativeLine2}
         </p>
 
         <a
           href="#project-overview"
-          className="a70-btn-primary mt-8 min-h-[54px] min-w-[250px] px-8 py-3.5 text-[20px] font-semibold uppercase tracking-[0.08em] sm:mt-10 sm:min-h-[60px] sm:min-w-[320px] sm:text-[26px]"
+          className="a70-btn-primary mt-10 min-h-[56px] min-w-[250px] px-8 py-3.5 text-[20px] font-bold uppercase tracking-[0.08em] sm:mt-12 sm:min-h-[62px] sm:min-w-[320px] sm:text-[26px]"
         >
-          ПОДРОБНЕЕ
+          {content.more}
         </a>
 
-        <div className="mt-6 flex items-center gap-2.5 sm:mt-8 sm:gap-3">
+        <div className="mt-7 flex items-center gap-2.5 sm:mt-9 sm:gap-3">
           <span className="h-2.5 w-2.5 rounded-full bg-[#e2c06f] sm:h-3.5 sm:w-3.5" />
           <span className="h-3.5 w-3.5 rounded-full bg-[#d2cfca] sm:h-[18px] sm:w-[18px]" />
           <span className="h-2.5 w-2.5 rounded-full bg-[#e2d7c0] sm:h-3.5 sm:w-3.5" />

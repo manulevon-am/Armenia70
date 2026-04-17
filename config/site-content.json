@@ -1,0 +1,594 @@
+{
+  "ru": {
+    "hero": {
+      "languageLabel": "Язык сайта",
+      "brand": "АРМЕНИЯ70",
+      "heading": "Один народ. Одно дело.",
+      "line1": "Армения — идёт голосовать.",
+      "line2": "Диаспора — поддерживает.",
+      "turnoutLine1": "Когда явка превышает 70% — результат принимают все.",
+      "turnoutLine2": "Стань частью АРМЕНИЯ70",
+      "initiativeLine1": "Глобальная инициатива для",
+      "initiativeLine2": "достижения 70% явки на выборах",
+      "more": "ПОДРОБНЕЕ"
+    },
+    "project": {
+      "intro": "Проект АРМЕНИЯ70 — это просветительская гражданская инициатива.",
+      "importantTitle": "ВАЖНО",
+      "importantPoints": [
+        "Мы не поддерживаем и не критикуем ни одну политическую партию.",
+        "Проект не занимается агитацией и не влияет на выбор граждан.",
+        "Наша задача — повышение вовлечённости и участия в выборах."
+      ],
+      "goalTitle": "Цель проекта",
+      "goalText": "Обеспечить явку избирателей на парламентских выборах в Армении 7 июня 2026 года — не ниже 70%.",
+      "howTitle": "Как это работает",
+      "howIntro": "Мы создали Telegram-канал, в котором ежедневно публикуются:",
+      "howPoints": [
+        "простые и понятные материалы о выборах",
+        "информация о процессе голосования",
+        "напоминания о важности участия"
+      ],
+      "prizesTitle": "Розыгрыши и ценные призы",
+      "prizesLeadPrefix": "Чтобы сделать участие более интересным,",
+      "prizesLeadBold": "каждый вечер проходят розыгрыши призов.",
+      "prizesChannelPrefix": "Розыгрыши проходят в нашем",
+      "prizesChannelLink": "Telegram-канале",
+      "prizesChannelSuffix": "среди подписчиков.",
+      "prizesComingSoon": "Скоро будут очень ценные призы 🎁.",
+      "participationTitle": "Условия участия",
+      "participationIntro": "Всего два условия:",
+      "participationChannelPrefix": "Вы подписаны на",
+      "participationChannelLink": "основной канал",
+      "participationPlace": "Вы находитесь в Армении (армянский номер в Telegram)",
+      "organizationTitle": "Организация проекта",
+      "organizationPrefix": "Организатор проекта и розыгрышей:",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "Спонсоры розыгрышей — представители армянской диаспоры, поддерживающие инициативу повышения участия граждан.",
+      "finalNote": "Без давления. Без сложностей. Без указаний, за кого голосовать.",
+      "cta": "ПРИСОЕДИНИТЬСЯ К ПРОЕКТУ"
+    },
+    "audience": {
+      "inTitle": "Я в Армении",
+      "step1Prefix": "Подписывайтесь на",
+      "step1Link": "главный канал",
+      "step2": "Участвуйте в розыгрыше каждый день в 20:00",
+      "step3": "Зовите друзей и родственников",
+      "outTitle": "Я не в Армении",
+      "outIntro": "Подписывайтесь на канал на удобном языке. Следите за ходом событий:",
+      "support": "Окажите спонсорскую поддержку, если у вас есть возможность",
+      "travel": "Если вы гражданин Армении — обязательно приезжайте на выборы 7 июня!",
+      "channels": [
+        { "flag": "🇦🇲", "label": "Канал на армянском языке", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "Канал на арабском языке", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "Канал на фарси", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "Канал на французском языке", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "Канал на русском языке", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "Канал на английском языке", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "Канал на испанском языке", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "Канал на турецком языке", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "hy": {
+    "hero": {
+      "languageLabel": "Կայքի լեզու",
+      "brand": "ԱՐՄԵՆԻԱ70",
+      "heading": "Մեկ ժողովուրդ։ Մեկ գործ։",
+      "line1": "Հայաստանը՝ գնում է քվեարկելու։",
+      "line2": "Սփյուռքը՝ աջակցում է։",
+      "turnoutLine1": "Երբ մասնակցությունը անցնում է 70%-ը, արդյունքը ընդունում են բոլորը։",
+      "turnoutLine2": "Դարձիր ԱՐՄԵՆԻԱ70-ի մասը",
+      "initiativeLine1": "Գլոբալ նախաձեռնություն՝",
+      "initiativeLine2": "ընտրություններին 70% մասնակցություն ապահովելու համար",
+      "more": "ԱՎԵԼԻ ՄԱՆՐԱՄԱՍՆ"
+    },
+    "project": {
+      "intro": "ԱՐՄԵՆԻԱ70 նախագիծը լուսավորչական քաղաքացիական նախաձեռնություն է։",
+      "importantTitle": "ԿԱՐԵՎՈՐ",
+      "importantPoints": [
+        "Մենք չենք աջակցում և չենք քննադատում որևէ քաղաքական կուսակցության։",
+        "Նախագիծը չի զբաղվում քարոզչությամբ և չի ազդում քաղաքացիների ընտրության վրա։",
+        "Մեր նպատակը ընտրություններին մասնակցության և ներգրավվածության բարձրացումն է։"
+      ],
+      "goalTitle": "Նախագծի նպատակը",
+      "goalText": "Ապահովել ընտրողների մասնակցությունը Հայաստանի խորհրդարանական ընտրություններին 2026 թվականի հունիսի 7-ին՝ ոչ պակաս, քան 70%։",
+      "howTitle": "Ինչպես է սա աշխատում",
+      "howIntro": "Մենք ստեղծել ենք Telegram-ալիք, որտեղ ամեն օր հրապարակվում են՝",
+      "howPoints": [
+        "պարզ և հասկանալի նյութեր ընտրությունների մասին",
+        "տեղեկություն քվեարկության գործընթացի մասին",
+        "հիշեցումներ մասնակցության կարևորության մասին"
+      ],
+      "prizesTitle": "Խաղարկություններ և արժեքավոր մրցանակներ",
+      "prizesLeadPrefix": "Մասնակցությունն ավելի հետաքրքիր դարձնելու համար՝",
+      "prizesLeadBold": "ամեն երեկո անցկացվում են մրցանակների խաղարկություններ։",
+      "prizesChannelPrefix": "Խաղարկությունները տեղի են ունենում մեր",
+      "prizesChannelLink": "Telegram-ալիքում",
+      "prizesChannelSuffix": "բաժանորդների միջև։",
+      "prizesComingSoon": "Շուտով կլինեն շատ արժեքավոր մրցանակներ 🎁։",
+      "participationTitle": "Մասնակցության պայմաններ",
+      "participationIntro": "Ընդամենը երկու պայման՝",
+      "participationChannelPrefix": "Դուք բաժանորդագրված եք",
+      "participationChannelLink": "հիմնական ալիքին",
+      "participationPlace": "Դուք գտնվում եք Հայաստանում (Telegram-ում հայկական համար)",
+      "organizationTitle": "Նախագծի կազմակերպում",
+      "organizationPrefix": "Նախագծի և խաղարկությունների կազմակերպիչը՝",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "Խաղարկությունների հովանավորները հայկական սփյուռքի ներկայացուցիչներ են, որոնք աջակցում են քաղաքացիների մասնակցության բարձրացման նախաձեռնությանը։",
+      "finalNote": "Առանց ճնշման։ Առանց բարդությունների։ Առանց ցուցումների, թե ում ընտրել։",
+      "cta": "ՄԻԱՑԻՐ ՆԱԽԱԳԾԻՆ"
+    },
+    "audience": {
+      "inTitle": "Ես Հայաստանում եմ",
+      "step1Prefix": "Բաժանորդագրվեք",
+      "step1Link": "հիմնական ալիքին",
+      "step2": "Մասնակցեք խաղարկությանը ամեն օր՝ ժամը 20:00-ին",
+      "step3": "Հրավիրեք ընկերներին և հարազատներին",
+      "outTitle": "Ես Հայաստանում չեմ",
+      "outIntro": "Բաժանորդագրվեք հարմար լեզվով ալիքին և հետևեք իրադարձություններին՝",
+      "support": "Ցույց տվեք հովանավորական աջակցություն, եթե ունեք այդ հնարավորությունը",
+      "travel": "Եթե դուք Հայաստանի քաղաքացի եք, անպայման եկեք ընտրությունների՝ հունիսի 7-ին։",
+      "channels": [
+        { "flag": "🇦🇲", "label": "Ալիք հայերենով", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "Ալիք արաբերենով", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "Ալիք պարսկերենով", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "Ալիք ֆրանսերենով", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "Ալիք ռուսերենով", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "Ալիք անգլերենով", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "Ալիք իսպաներենով", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "Ալիք թուրքերենով", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "ar": {
+    "hero": {
+      "languageLabel": "لغة الموقع",
+      "brand": "ARMENIA70",
+      "heading": "شعب واحد. مهمة واحدة.",
+      "line1": "أرمينيا تتجه إلى التصويت.",
+      "line2": "والشتات يدعم.",
+      "turnoutLine1": "عندما تتجاوز نسبة المشاركة 70% يقبل الجميع النتيجة.",
+      "turnoutLine2": "كن جزءًا من ARMENIA70",
+      "initiativeLine1": "مبادرة عالمية من أجل",
+      "initiativeLine2": "الوصول إلى مشاركة انتخابية لا تقل عن 70%",
+      "more": "المزيد"
+    },
+    "project": {
+      "intro": "مشروع ARMENIA70 هو مبادرة مدنية توعوية.",
+      "importantTitle": "مهم",
+      "importantPoints": [
+        "نحن لا ندعم ولا ننتقد أي حزب سياسي.",
+        "المشروع لا يقوم بالدعاية ولا يؤثر على اختيار المواطنين.",
+        "مهمتنا هي رفع مستوى المشاركة والانخراط في الانتخابات."
+      ],
+      "goalTitle": "هدف المشروع",
+      "goalText": "ضمان نسبة مشاركة في الانتخابات البرلمانية في أرمينيا يوم 7 يونيو 2026 لا تقل عن 70%.",
+      "howTitle": "كيف يعمل ذلك",
+      "howIntro": "أنشأنا قناة على تيليغرام ننشر فيها يوميًا:",
+      "howPoints": [
+        "مواد بسيطة وواضحة عن الانتخابات",
+        "معلومات عن عملية التصويت",
+        "تذكيرات بأهمية المشاركة"
+      ],
+      "prizesTitle": "السحوبات والجوائز القيّمة",
+      "prizesLeadPrefix": "لجعل المشاركة أكثر جاذبية،",
+      "prizesLeadBold": "تقام سحوبات على الجوائز كل مساء.",
+      "prizesChannelPrefix": "تقام السحوبات في",
+      "prizesChannelLink": "قناتنا على تيليغرام",
+      "prizesChannelSuffix": "بين المشتركين.",
+      "prizesComingSoon": "قريبًا ستكون هناك جوائز قيّمة جدًا 🎁.",
+      "participationTitle": "شروط المشاركة",
+      "participationIntro": "هناك شرطان فقط:",
+      "participationChannelPrefix": "أنت مشترك في",
+      "participationChannelLink": "القناة الرئيسية",
+      "participationPlace": "أنت موجود في أرمينيا (رقم أرميني في تيليغرام)",
+      "organizationTitle": "تنظيم المشروع",
+      "organizationPrefix": "منظم المشروع والسحوبات:",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "رعاة السحوبات هم ممثلون عن الجالية الأرمنية في الخارج الذين يدعمون مبادرة زيادة مشاركة المواطنين.",
+      "finalNote": "من دون ضغط. من دون تعقيد. ومن دون إملاء لمن تصوّت.",
+      "cta": "انضم إلى المشروع"
+    },
+    "audience": {
+      "inTitle": "أنا في أرمينيا",
+      "step1Prefix": "اشترك في",
+      "step1Link": "القناة الرئيسية",
+      "step2": "شارك في السحب كل يوم عند الساعة 20:00",
+      "step3": "ادعُ الأصدقاء والأقارب",
+      "outTitle": "أنا لست في أرمينيا",
+      "outIntro": "اشترك في القناة باللغة المناسبة لك وتابع مجريات الأحداث:",
+      "support": "قدّم دعمًا ماليًا إذا كانت لديك الإمكانية",
+      "travel": "إذا كنت مواطنًا أرمينيًا، فاحرص على المجيء إلى الانتخابات في 7 يونيو!",
+      "channels": [
+        { "flag": "🇦🇲", "label": "القناة باللغة الأرمنية", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "القناة باللغة العربية", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "القناة بالفارسية", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "القناة بالفرنسية", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "القناة بالروسية", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "القناة بالإنجليزية", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "القناة بالإسبانية", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "القناة بالتركية", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "fa": {
+    "hero": {
+      "languageLabel": "زبان سایت",
+      "brand": "ARMENIA70",
+      "heading": "یک ملت. یک مأموریت.",
+      "line1": "ارمنستان به سوی رأی‌گیری می‌رود.",
+      "line2": "دیاسپورا حمایت می‌کند.",
+      "turnoutLine1": "وقتی مشارکت از ۷۰٪ عبور کند، همه نتیجه را می‌پذیرند.",
+      "turnoutLine2": "بخشی از ARMENIA70 باشید",
+      "initiativeLine1": "ابتکاری جهانی برای",
+      "initiativeLine2": "رسیدن به مشارکت ۷۰ درصدی در انتخابات",
+      "more": "بیشتر"
+    },
+    "project": {
+      "intro": "پروژه ARMENIA70 یک ابتکار مدنی و آگاهی‌بخش است.",
+      "importantTitle": "مهم",
+      "importantPoints": [
+        "ما از هیچ حزب سیاسی حمایت یا انتقاد نمی‌کنیم.",
+        "این پروژه تبلیغات سیاسی انجام نمی‌دهد و بر انتخاب شهروندان اثر نمی‌گذارد.",
+        "وظیفه ما افزایش مشارکت و درگیر شدن مردم در انتخابات است."
+      ],
+      "goalTitle": "هدف پروژه",
+      "goalText": "تضمین مشارکت رأی‌دهندگان در انتخابات پارلمانی ارمنستان در ۷ ژوئن ۲۰۲۶ با حداقل ۷۰٪ مشارکت.",
+      "howTitle": "چگونه کار می‌کند",
+      "howIntro": "ما یک کانال تلگرام ساخته‌ایم که هر روز در آن منتشر می‌شود:",
+      "howPoints": [
+        "مطالب ساده و روشن درباره انتخابات",
+        "اطلاعات درباره فرایند رأی‌گیری",
+        "یادآوری اهمیت مشارکت"
+      ],
+      "prizesTitle": "قرعه‌کشی‌ها و جوایز ارزشمند",
+      "prizesLeadPrefix": "برای جذاب‌تر شدن مشارکت،",
+      "prizesLeadBold": "هر شب قرعه‌کشی جایزه برگزار می‌شود.",
+      "prizesChannelPrefix": "قرعه‌کشی‌ها در",
+      "prizesChannelLink": "کانال تلگرام ما",
+      "prizesChannelSuffix": "میان اعضا برگزار می‌شوند.",
+      "prizesComingSoon": "به‌زودی جوایز بسیار ارزشمندی خواهیم داشت 🎁.",
+      "participationTitle": "شرایط مشارکت",
+      "participationIntro": "فقط دو شرط وجود دارد:",
+      "participationChannelPrefix": "شما عضو",
+      "participationChannelLink": "کانال اصلی",
+      "participationPlace": "شما در ارمنستان هستید (شماره ارمنی در تلگرام)",
+      "organizationTitle": "سازمان‌دهی پروژه",
+      "organizationPrefix": "سازمان‌دهنده پروژه و قرعه‌کشی‌ها:",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "حامیان قرعه‌کشی‌ها نمایندگان دیاسپورای ارمنی هستند که از ابتکار افزایش مشارکت شهروندان حمایت می‌کنند.",
+      "finalNote": "بدون فشار. بدون پیچیدگی. بدون اینکه به شما گفته شود به چه کسی رأی بدهید.",
+      "cta": "به پروژه بپیوندید"
+    },
+    "audience": {
+      "inTitle": "من در ارمنستان هستم",
+      "step1Prefix": "در",
+      "step1Link": "کانال اصلی",
+      "step2": "هر روز ساعت ۲۰:۰۰ در قرعه‌کشی شرکت کنید",
+      "step3": "دوستان و بستگان خود را دعوت کنید",
+      "outTitle": "من در ارمنستان نیستم",
+      "outIntro": "در کانال به زبان دلخواه عضو شوید و روند رویدادها را دنبال کنید:",
+      "support": "اگر امکان دارید، حمایت مالی ارائه دهید",
+      "travel": "اگر شهروند ارمنستان هستید، حتماً در ۷ ژوئن برای انتخابات بیایید!",
+      "channels": [
+        { "flag": "🇦🇲", "label": "کانال ارمنی", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "کانال عربی", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "کانال فارسی", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "کانال فرانسوی", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "کانال روسی", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "کانال انگلیسی", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "کانال اسپانیایی", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "کانال ترکی", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "fr": {
+    "hero": {
+      "languageLabel": "Langue du site",
+      "brand": "ARMENIA70",
+      "heading": "Un peuple. Une mission.",
+      "line1": "L'Arménie va voter.",
+      "line2": "La diaspora soutient.",
+      "turnoutLine1": "Quand la participation dépasse 70 %, tout le monde accepte le résultat.",
+      "turnoutLine2": "Faites partie d'ARMENIA70",
+      "initiativeLine1": "Une initiative mondiale pour",
+      "initiativeLine2": "atteindre 70 % de participation aux élections",
+      "more": "EN SAVOIR PLUS"
+    },
+    "project": {
+      "intro": "Le projet ARMENIA70 est une initiative civique d'information.",
+      "importantTitle": "IMPORTANT",
+      "importantPoints": [
+        "Nous ne soutenons ni ne critiquons aucun parti politique.",
+        "Le projet ne fait pas de propagande et n'influence pas le choix des citoyens.",
+        "Notre mission est d'accroître l'implication et la participation électorale."
+      ],
+      "goalTitle": "Objectif du projet",
+      "goalText": "Garantir une participation électorale d'au moins 70 % aux élections législatives en Arménie le 7 juin 2026.",
+      "howTitle": "Comment cela fonctionne",
+      "howIntro": "Nous avons créé une chaîne Telegram où sont publiés chaque jour :",
+      "howPoints": [
+        "des contenus simples et clairs sur les élections",
+        "des informations sur le processus de vote",
+        "des rappels sur l'importance de participer"
+      ],
+      "prizesTitle": "Tirages et prix de valeur",
+      "prizesLeadPrefix": "Pour rendre la participation plus engageante,",
+      "prizesLeadBold": "des tirages au sort ont lieu chaque soir.",
+      "prizesChannelPrefix": "Les tirages ont lieu sur",
+      "prizesChannelLink": "notre chaîne Telegram",
+      "prizesChannelSuffix": "parmi les abonnés.",
+      "prizesComingSoon": "Très bientôt, des prix encore plus précieux seront annoncés 🎁.",
+      "participationTitle": "Conditions de participation",
+      "participationIntro": "Il n'y a que deux conditions :",
+      "participationChannelPrefix": "Vous êtes abonné à",
+      "participationChannelLink": "la chaîne principale",
+      "participationPlace": "Vous vous trouvez en Arménie (numéro arménien dans Telegram)",
+      "organizationTitle": "Organisation du projet",
+      "organizationPrefix": "Organisateur du projet et des tirages :",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "Les sponsors des tirages sont des représentants de la diaspora arménienne soutenant l'initiative d'augmentation de la participation citoyenne.",
+      "finalNote": "Sans pression. Sans complexité. Sans indication pour qui voter.",
+      "cta": "REJOINDRE LE PROJET"
+    },
+    "audience": {
+      "inTitle": "Je suis en Arménie",
+      "step1Prefix": "Abonnez-vous à",
+      "step1Link": "la chaîne principale",
+      "step2": "Participez au tirage chaque jour à 20h00",
+      "step3": "Invitez vos amis et vos proches",
+      "outTitle": "Je ne suis pas en Arménie",
+      "outIntro": "Abonnez-vous à la chaîne dans la langue qui vous convient et suivez l'évolution :",
+      "support": "Apportez un soutien financier si vous en avez la possibilité",
+      "travel": "Si vous êtes citoyen arménien, venez impérativement voter le 7 juin !",
+      "channels": [
+        { "flag": "🇦🇲", "label": "Chaîne en arménien", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "Chaîne en arabe", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "Chaîne en persan", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "Chaîne en français", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "Chaîne en russe", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "Chaîne en anglais", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "Chaîne en espagnol", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "Chaîne en turc", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "en": {
+    "hero": {
+      "languageLabel": "Site language",
+      "brand": "ARMENIA70",
+      "heading": "One people. One mission.",
+      "line1": "Armenia is going to vote.",
+      "line2": "The diaspora supports.",
+      "turnoutLine1": "When turnout exceeds 70%, everyone accepts the result.",
+      "turnoutLine2": "Become part of ARMENIA70",
+      "initiativeLine1": "A global initiative to",
+      "initiativeLine2": "reach 70% voter turnout",
+      "more": "LEARN MORE"
+    },
+    "project": {
+      "intro": "ARMENIA70 is a civic educational initiative.",
+      "importantTitle": "IMPORTANT",
+      "importantPoints": [
+        "We do not support or criticize any political party.",
+        "The project does not campaign and does not influence citizens' choices.",
+        "Our mission is to increase electoral engagement and participation."
+      ],
+      "goalTitle": "Project goal",
+      "goalText": "Ensure voter turnout in Armenia's parliamentary elections on June 7, 2026 is no lower than 70%.",
+      "howTitle": "How it works",
+      "howIntro": "We created a Telegram channel where we publish daily:",
+      "howPoints": [
+        "simple and clear election explainers",
+        "information about the voting process",
+        "reminders about the importance of participation"
+      ],
+      "prizesTitle": "Giveaways and valuable prizes",
+      "prizesLeadPrefix": "To make participation more engaging,",
+      "prizesLeadBold": "prize giveaways take place every evening.",
+      "prizesChannelPrefix": "The giveaways take place in our",
+      "prizesChannelLink": "Telegram channel",
+      "prizesChannelSuffix": "among subscribers.",
+      "prizesComingSoon": "Very valuable prizes are coming soon 🎁.",
+      "participationTitle": "Participation rules",
+      "participationIntro": "There are only two conditions:",
+      "participationChannelPrefix": "You are subscribed to the",
+      "participationChannelLink": "main channel",
+      "participationPlace": "You are located in Armenia (Armenian number in Telegram)",
+      "organizationTitle": "Project organization",
+      "organizationPrefix": "Project and giveaway organizer:",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "The giveaway sponsors are members of the Armenian diaspora supporting the initiative to increase civic participation.",
+      "finalNote": "No pressure. No complications. No instructions on whom to vote for.",
+      "cta": "JOIN THE PROJECT"
+    },
+    "audience": {
+      "inTitle": "I am in Armenia",
+      "step1Prefix": "Subscribe to the",
+      "step1Link": "main channel",
+      "step2": "Join the giveaway every day at 20:00",
+      "step3": "Invite your friends and relatives",
+      "outTitle": "I am not in Armenia",
+      "outIntro": "Subscribe to a channel in your preferred language and follow the updates:",
+      "support": "Provide sponsorship support if you have the opportunity",
+      "travel": "If you are an Armenian citizen, make sure to come vote on June 7!",
+      "channels": [
+        { "flag": "🇦🇲", "label": "Armenian channel", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "Arabic channel", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "Persian channel", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "French channel", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "Russian channel", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "English channel", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "Spanish channel", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "Turkish channel", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "es": {
+    "hero": {
+      "languageLabel": "Idioma del sitio",
+      "brand": "ARMENIA70",
+      "heading": "Un pueblo. Una misión.",
+      "line1": "Armenia va a votar.",
+      "line2": "La diáspora apoya.",
+      "turnoutLine1": "Cuando la participación supera el 70 %, todos aceptan el resultado.",
+      "turnoutLine2": "Sé parte de ARMENIA70",
+      "initiativeLine1": "Una iniciativa global para",
+      "initiativeLine2": "alcanzar un 70 % de participación electoral",
+      "more": "MÁS INFORMACIÓN"
+    },
+    "project": {
+      "intro": "ARMENIA70 es una iniciativa cívica de carácter educativo.",
+      "importantTitle": "IMPORTANTE",
+      "importantPoints": [
+        "No apoyamos ni criticamos a ningún partido político.",
+        "El proyecto no hace campaña ni influye en la decisión de los ciudadanos.",
+        "Nuestra tarea es aumentar la participación y el compromiso electoral."
+      ],
+      "goalTitle": "Objetivo del proyecto",
+      "goalText": "Garantizar una participación no inferior al 70 % en las elecciones parlamentarias de Armenia del 7 de junio de 2026.",
+      "howTitle": "Cómo funciona",
+      "howIntro": "Hemos creado un canal de Telegram donde publicamos diariamente:",
+      "howPoints": [
+        "materiales sencillos y claros sobre las elecciones",
+        "información sobre el proceso de votación",
+        "recordatorios sobre la importancia de participar"
+      ],
+      "prizesTitle": "Sorteos y premios valiosos",
+      "prizesLeadPrefix": "Para hacer la participación más atractiva,",
+      "prizesLeadBold": "cada noche se realizan sorteos de premios.",
+      "prizesChannelPrefix": "Los sorteos se realizan en nuestro",
+      "prizesChannelLink": "canal de Telegram",
+      "prizesChannelSuffix": "entre los suscriptores.",
+      "prizesComingSoon": "Muy pronto habrá premios de gran valor 🎁.",
+      "participationTitle": "Condiciones de participación",
+      "participationIntro": "Solo hay dos condiciones:",
+      "participationChannelPrefix": "Estás suscrito al",
+      "participationChannelLink": "canal principal",
+      "participationPlace": "Te encuentras en Armenia (número armenio en Telegram)",
+      "organizationTitle": "Organización del proyecto",
+      "organizationPrefix": "Organizador del proyecto y de los sorteos:",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "Los patrocinadores de los sorteos son representantes de la diáspora armenia que apoyan la iniciativa de aumentar la participación ciudadana.",
+      "finalNote": "Sin presión. Sin complejidad. Sin decirte por quién votar.",
+      "cta": "UNIRME AL PROYECTO"
+    },
+    "audience": {
+      "inTitle": "Estoy en Armenia",
+      "step1Prefix": "Suscríbete al",
+      "step1Link": "canal principal",
+      "step2": "Participa en el sorteo todos los días a las 20:00",
+      "step3": "Invita a tus amigos y familiares",
+      "outTitle": "No estoy en Armenia",
+      "outIntro": "Suscríbete al canal en el idioma que prefieras y sigue los acontecimientos:",
+      "support": "Ofrece apoyo como patrocinador si tienes la posibilidad",
+      "travel": "Si eres ciudadano de Armenia, asegúrate de viajar para votar el 7 de junio.",
+      "channels": [
+        { "flag": "🇦🇲", "label": "Canal en armenio", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "Canal en árabe", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "Canal en persa", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "Canal en francés", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "Canal en ruso", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "Canal en inglés", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "Canal en español", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "Canal en turco", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  },
+  "tr": {
+    "hero": {
+      "languageLabel": "Site dili",
+      "brand": "ARMENIA70",
+      "heading": "Tek halk. Tek amaç.",
+      "line1": "Ermenistan oy vermeye gidiyor.",
+      "line2": "Diaspora destek oluyor.",
+      "turnoutLine1": "Katılım %70'i aştığında sonucu herkes kabul eder.",
+      "turnoutLine2": "ARMENIA70'in bir parçası ol",
+      "initiativeLine1": "Seçimlerde %70 katılıma ulaşmak için",
+      "initiativeLine2": "küresel bir girişim",
+      "more": "DAHA FAZLA"
+    },
+    "project": {
+      "intro": "ARMENIA70 projesi bilgilendirici bir sivil girişimdir.",
+      "importantTitle": "ÖNEMLİ",
+      "importantPoints": [
+        "Herhangi bir siyasi partiyi desteklemiyor ya da eleştirmiyoruz.",
+        "Proje propaganda yapmaz ve vatandaşların tercihlerini etkilemez.",
+        "Görevimiz seçime katılımı ve ilgiyi artırmaktır."
+      ],
+      "goalTitle": "Projenin amacı",
+      "goalText": "7 Haziran 2026'da yapılacak Ermenistan parlamento seçimlerinde katılım oranının en az %70 olmasını sağlamak.",
+      "howTitle": "Nasıl çalışır",
+      "howIntro": "Her gün şu içeriklerin yayınlandığı bir Telegram kanalı oluşturduk:",
+      "howPoints": [
+        "seçimler hakkında sade ve anlaşılır içerikler",
+        "oy verme süreci hakkında bilgiler",
+        "katılımın önemine dair hatırlatmalar"
+      ],
+      "prizesTitle": "Çekilişler ve değerli ödüller",
+      "prizesLeadPrefix": "Katılımı daha ilgi çekici hale getirmek için,",
+      "prizesLeadBold": "her akşam ödül çekilişleri yapılıyor.",
+      "prizesChannelPrefix": "Çekilişler",
+      "prizesChannelLink": "Telegram kanalımızda",
+      "prizesChannelSuffix": "aboneler arasında yapılıyor.",
+      "prizesComingSoon": "Yakında çok değerli ödüller olacak 🎁.",
+      "participationTitle": "Katılım koşulları",
+      "participationIntro": "Sadece iki koşul var:",
+      "participationChannelPrefix": "Şuraya abonesiniz:",
+      "participationChannelLink": "ana kanal",
+      "participationPlace": "Ermenistan'dasınız (Telegram'da Ermeni numarası)",
+      "organizationTitle": "Proje organizasyonu",
+      "organizationPrefix": "Projenin ve çekilişlerin organizatörü:",
+      "organizationLink": "Miasin Global",
+      "organizationSponsors": "Çekiliş sponsorları, vatandaş katılımını artırma girişimini destekleyen Ermeni diasporası temsilcileridir.",
+      "finalNote": "Baskı yok. Karmaşıklık yok. Kime oy vereceğine dair yönlendirme yok.",
+      "cta": "PROJEYE KATIL"
+    },
+    "audience": {
+      "inTitle": "Ben Ermenistan'dayım",
+      "step1Prefix": "Şuraya abone olun:",
+      "step1Link": "ana kanal",
+      "step2": "Her gün saat 20:00'de çekilişe katılın",
+      "step3": "Arkadaşlarınızı ve akrabalarınızı davet edin",
+      "outTitle": "Ben Ermenistan'da değilim",
+      "outIntro": "Size uygun dildeki kanala abone olun ve gelişmeleri takip edin:",
+      "support": "İmkânınız varsa sponsorluk desteği sağlayın",
+      "travel": "Eğer Ermenistan vatandaşıysanız, 7 Haziran'da oy vermek için mutlaka gelin!",
+      "channels": [
+        { "flag": "🇦🇲", "label": "Ermenice kanal", "href": "https://t.me/miasin_new2025" },
+        { "flag": "🇦🇪", "label": "Arapça kanal", "href": "https://t.me/new_hayastan2026_arabia" },
+        { "flag": "🇮🇷", "label": "Farsça kanal", "href": "https://t.me/new_hayastan2026farsi" },
+        { "flag": "🇫🇷", "label": "Fransızca kanal", "href": "https://t.me/election_2025arm" },
+        { "flag": "🇷🇺", "label": "Rusça kanal", "href": "https://t.me/new_hayastan2026" },
+        { "flag": "🇬🇧", "label": "İngilizce kanal", "href": "https://t.me/election_arm2025" },
+        { "flag": "🇪🇸", "label": "İspanyolca kanal", "href": "https://t.me/new_hayastan2026_esp" },
+        { "flag": "🇹🇷", "label": "Türkçe kanal", "href": "https://t.me/new_hayastan266turk" }
+      ]
+    },
+    "footer": {
+      "copyright": "© ARMENIA70 2026"
+    }
+  }
+}

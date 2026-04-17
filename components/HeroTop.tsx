@@ -13,19 +13,19 @@ export function HeroTop() {
 
         <h1 className="font-display text-[36px] leading-[1.04] tracking-tight text-[#2f2f35] sm:text-[50px]">Один народ. Одно дело.</h1>
 
-        <p className="mt-4 font-display text-[28px] leading-[1.2] tracking-tight text-[#3f3f46] sm:text-[40px]">
+        <p className="mt-5 font-display text-[28px] leading-[1.2] tracking-tight text-[#3f3f46] sm:mt-6 sm:text-[40px]">
           Армения — идёт голосовать.
           <br />
           Диаспора — поддерживает.
         </p>
 
-        <p className="mt-4 text-[18px] font-semibold leading-[1.5] text-[#5f5f66] sm:text-[26px]">
+        <p className="mt-7 text-[18px] font-semibold leading-[1.5] text-[#5f5f66] sm:mt-9 sm:text-[26px]">
           Когда явка превышает 70% — результат принимают все.
           <br />
           Стань частью АРМЕНИЯ70
         </p>
 
-        <p className="mt-5 text-[18px] leading-[1.35] text-[#7f7f86] sm:text-[26px]">
+        <p className="mt-7 text-[18px] leading-[1.35] text-[#7f7f86] sm:mt-9 sm:text-[26px]">
           Глобальная инициатива для
           <br />
           достижения 70% явки на выборах
@@ -33,9 +33,9 @@ export function HeroTop() {
 
         <a
           href="#project-overview"
-          className="a70-btn-primary mt-6 min-h-[50px] min-w-[240px] px-8 py-3 text-[18px] sm:min-h-[58px] sm:min-w-[300px] sm:text-[24px]"
+          className="a70-btn-primary mt-8 min-h-[54px] min-w-[250px] px-8 py-3.5 text-[20px] font-semibold uppercase tracking-[0.08em] sm:mt-10 sm:min-h-[60px] sm:min-w-[320px] sm:text-[26px]"
         >
-          Подробнее
+          ПОДРОБНЕЕ
         </a>
 
         <div className="mt-6 flex items-center gap-2.5 sm:mt-8 sm:gap-3">

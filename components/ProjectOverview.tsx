@@ -1,10 +1,13 @@
 export function ProjectOverview() {
+  const bulletClassName = "mt-[0.55em] h-1.5 w-1.5 shrink-0 rounded-full bg-[#c5a45b]";
+  const linkClassName = "font-semibold text-[#2563eb] underline decoration-[#2563eb]/60 underline-offset-4";
+
   return (
     <section id="project-overview" className="mx-auto w-full max-w-6xl px-4 pt-8 sm:px-6 sm:pt-10 lg:px-8">
       <div className="a70-card mx-auto max-w-5xl px-5 py-6 sm:px-7 sm:py-8">
         <div className="space-y-6">
           <div>
-            <p className="text-[17px] leading-[1.55] text-[#595a61] sm:text-[20px]">
+            <p className="text-[20px] leading-[1.55] text-[#595a61] sm:text-[24px]">
               Проект АРМЕНИЯ70 — это <span className="font-semibold text-[#34353b]">просветительская гражданская инициатива.</span>
             </p>
           </div>
@@ -13,15 +16,15 @@ export function ProjectOverview() {
             <p className="text-[17px] font-semibold tracking-tight text-[#4a4133] sm:text-[19px]">ВАЖНО</p>
             <ul className="mt-3 space-y-2 text-[15px] leading-[1.6] text-[#5d5f66] sm:text-[17px]">
               <li className="flex gap-2.5">
-                <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                <span className={bulletClassName} />
                 <span>Мы не поддерживаем и не критикуем ни одну политическую партию.</span>
               </li>
               <li className="flex gap-2.5">
-                <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                <span className={bulletClassName} />
                 <span>Проект не занимается агитацией и не влияет на выбор граждан.</span>
               </li>
               <li className="flex gap-2.5">
-                <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                <span className={bulletClassName} />
                 <span>Наша задача — повышение вовлечённости и участия в выборах.</span>
               </li>
             </ul>
@@ -43,15 +46,15 @@ export function ProjectOverview() {
               </p>
               <ul className="mt-3 space-y-2 text-[15px] leading-[1.55] text-[#5d5f66] sm:text-[17px]">
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                  <span className={bulletClassName} />
                   <span>простые и понятные материалы о выборах</span>
                 </li>
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                  <span className={bulletClassName} />
                   <span>информация о процессе голосования</span>
                 </li>
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                  <span className={bulletClassName} />
                   <span>напоминания о важности участия</span>
                 </li>
               </ul>
@@ -60,15 +63,28 @@ export function ProjectOverview() {
 
           <div className="grid gap-4 lg:grid-cols-2">
             <article className="rounded-[22px] border border-[#ece2d4] bg-white/70 px-4 py-4 sm:px-5">
-              <p className="text-[17px] font-semibold tracking-tight text-[#34353b] sm:text-[19px]">Участие и розыгрыши</p>
+              <p className="text-[17px] font-semibold tracking-tight text-[#34353b] sm:text-[19px]">Розыгрыши и ценные призы 🎁</p>
               <ul className="mt-3 space-y-2 text-[15px] leading-[1.6] text-[#5d5f66] sm:text-[17px]">
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
-                  <span>Чтобы сделать участие более интересным, каждый вечер проходят розыгрыши призов.</span>
+                  <span className={bulletClassName} />
+                  <span>
+                    Чтобы сделать участие более интересным,{" "}
+                    <span className="font-semibold text-[#34353b]">каждый вечер проходят розыгрыши призов.</span>
+                  </span>
                 </li>
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
-                  <span>Розыгрыши проходят в нашем Telegram-канале среди подписчиков.</span>
+                  <span className={bulletClassName} />
+                  <span>
+                    Розыгрыши проходят в нашем{" "}
+                    <a href="https://t.me/@miasin_new2025" className={linkClassName} target="_blank" rel="noreferrer">
+                      Telegram-канале
+                    </a>{" "}
+                    среди подписчиков.
+                  </span>
+                </li>
+                <li className="flex gap-2.5">
+                  <span className={bulletClassName} />
+                  <span>Скоро будут очень ценные призы.</span>
                 </li>
               </ul>
             </article>
@@ -78,11 +94,16 @@ export function ProjectOverview() {
               <p className="mt-2 text-[15px] leading-[1.6] text-[#5d5f66] sm:text-[17px]">Всего два условия:</p>
               <ul className="mt-3 space-y-2 text-[15px] leading-[1.55] text-[#5d5f66] sm:text-[17px]">
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
-                  <span>Вы подписаны на основной канал: @miasin_new2025</span>
+                  <span className={bulletClassName} />
+                  <span>
+                    Вы подписаны на{" "}
+                    <a href="https://t.me/@miasin_new2025" className={linkClassName} target="_blank" rel="noreferrer">
+                      основной канал: @miasin_new2025
+                    </a>
+                  </span>
                 </li>
                 <li className="flex gap-2.5">
-                  <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                  <span className={bulletClassName} />
                   <span>Вы находитесь в Армении (армянский номер в Telegram)</span>
                 </li>
               </ul>
@@ -93,17 +114,17 @@ export function ProjectOverview() {
             <p className="text-[17px] font-semibold tracking-tight text-[#34353b] sm:text-[19px]">Организация проекта</p>
             <ul className="mt-3 space-y-2 text-[15px] leading-[1.6] text-[#5d5f66] sm:text-[17px]">
               <li className="flex gap-2.5">
-                <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                <span className={bulletClassName} />
                 <span>
                   Организатор проекта и розыгрышей:{" "}
-                  <a href="https://miasinglobal.org/" className="font-semibold text-[#3d3e45] underline underline-offset-4">
+                  <a href="https://miasinglobal.org/" className={linkClassName} target="_blank" rel="noreferrer">
                     Miasin Global
                   </a>
                   .
                 </span>
               </li>
               <li className="flex gap-2.5">
-                <span className="mt-[0.55em] h-1.5 w-1.5 rounded-full bg-[#c5a45b]" />
+                <span className={bulletClassName} />
                 <span>
                   Спонсоры розыгрышей — представители армянской диаспоры, поддерживающие инициативу повышения участия
                   граждан.

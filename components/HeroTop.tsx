@@ -3,16 +3,7 @@ import logo from "@/public/Logo_armenia70.png";
 
 export function HeroTop() {
   return (
-    <section className="relative mx-auto w-full max-w-6xl px-4 pt-6 sm:px-6 sm:pt-8 lg:px-8">
-      <div className="mx-auto flex max-w-5xl items-center justify-start pb-8 sm:pb-10">
-        <div className="flex items-center gap-2.5">
-          <div className="h-12 w-12 overflow-hidden rounded-full border border-[#d8c8a8] shadow-[0_8px_24px_rgba(80,58,21,0.18)] sm:h-14 sm:w-14">
-            <Image src={logo} alt="Armenia 70" width={64} height={64} priority className="h-full w-full object-cover" />
-          </div>
-          <span className="font-display text-[26px] leading-none tracking-tight text-[#343434] sm:text-[34px]">АРМЕНИЯ70</span>
-        </div>
-      </div>
-
+    <section className="relative mx-auto w-full max-w-6xl px-4 pt-10 sm:px-6 sm:pt-12 lg:px-8">
       <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
         <div className="mb-6 h-20 w-20 overflow-hidden rounded-full border border-[#d8c8a8] shadow-[0_10px_26px_rgba(80,58,21,0.16)] sm:mb-8 sm:h-24 sm:w-24">
           <Image src={logo} alt="Golden emblem" width={144} height={144} className="h-full w-full object-cover" />

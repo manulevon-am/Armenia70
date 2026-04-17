@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Armenia 70",
   description:
     "Гражданская инициатива по повышению явки и вовлеченности: спокойно, прозрачно, без давления.",
+  icons: {
+    icon: "/Logo_armenia70.png",
+    shortcut: "/Logo_armenia70.png",
+    apple: "/Logo_armenia70.png",
+  },
 };
 
 export default function RootLayout({

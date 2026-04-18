@@ -6,6 +6,7 @@ const siteUrl = process.env.SITE_URL?.trim() || "https://armenia70.miasinglobal.
 const siteBasePath = process.env.SITE_BASE_PATH?.trim() || "";
 const canonicalPath = siteBasePath ? `${siteBasePath}/` : "/";
 const logoPath = siteBasePath ? `${siteBasePath}/Logo_armenia70.png` : "/Logo_armenia70.png";
+const socialImagePath = siteBasePath ? `${siteBasePath}/og-image.png` : "/og-image.png";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -42,9 +43,9 @@ export const metadata: Metadata = {
     siteName: "Armenia 70",
     images: [
       {
-        url: logoPath,
-        width: 512,
-        height: 512,
+        url: socialImagePath,
+        width: 1200,
+        height: 630,
         alt: "Armenia 70"
       }
     ]
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
     title: "Armenia 70",
     description:
       "A civic initiative to increase voter turnout and participation in Armenia. Calm, transparent, and without pressure.",
-    images: [logoPath]
+    images: [socialImagePath]
   }
 };
 

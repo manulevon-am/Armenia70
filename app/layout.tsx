@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 
+const siteUrl = process.env.SITE_URL?.trim() || "https://armenia70.miasinglobal.org";
+const siteBasePath = process.env.SITE_BASE_PATH?.trim() || "";
+const canonicalPath = siteBasePath ? `${siteBasePath}/` : "/";
+const logoPath = siteBasePath ? `${siteBasePath}/Logo_armenia70.png` : "/Logo_armenia70.png";
+
 const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin", "cyrillic"],
@@ -16,12 +21,41 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "Armenia 70",
   description:
-    "Гражданская инициатива по повышению явки и вовлеченности: спокойно, прозрачно, без давления.",
-  icons: {
-    icon: "/Logo_armenia70.png",
-    shortcut: "/Logo_armenia70.png",
-    apple: "/Logo_armenia70.png",
+    "A civic initiative to increase voter turnout and participation in Armenia. Calm, transparent, and without pressure.",
+  metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: canonicalPath,
   },
+  applicationName: "Armenia 70",
+  icons: {
+    icon: logoPath,
+    shortcut: logoPath,
+    apple: logoPath,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: canonicalPath,
+    title: "Armenia 70",
+    description:
+      "A civic initiative to increase voter turnout and participation in Armenia. Calm, transparent, and without pressure.",
+    siteName: "Armenia 70",
+    images: [
+      {
+        url: logoPath,
+        width: 512,
+        height: 512,
+        alt: "Armenia 70"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Armenia 70",
+    description:
+      "A civic initiative to increase voter turnout and participation in Armenia. Calm, transparent, and without pressure.",
+    images: [logoPath]
+  }
 };
 
 export default function RootLayout({
@@ -30,7 +64,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={`${manrope.variable} ${cormorant.variable} h-full antialiased`}>
+    <html lang="en" className={`${manrope.variable} ${cormorant.variable} h-full antialiased`}>
       <body className="min-h-full bg-[#F9F7F4] text-[#1F1F1F]">{children}</body>
     </html>
   );

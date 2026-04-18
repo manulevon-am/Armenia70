@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AudienceQuick } from "@/components/AudienceQuick";
 import { FadeIn } from "@/components/FadeIn";
 import { Footer } from "@/components/Footer";
@@ -9,8 +9,12 @@ import { ProjectOverview } from "@/components/ProjectOverview";
 import { getSiteContent, localeOptions, type Locale } from "@/lib/site-content";
 
 export function LandingPage() {
-  const [locale, setLocale] = useState<Locale>("ru");
+  const [locale, setLocale] = useState<Locale>("en");
   const content = useMemo(() => getSiteContent(locale), [locale]);
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
 
   return (
     <div className="a70-page relative min-h-screen overflow-x-clip">

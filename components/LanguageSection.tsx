@@ -8,7 +8,7 @@ const links = [
   { flag: "🇸🇦", url: "t.me/new_hayastan2026_arabia" },
   { flag: "🇮🇷", url: "t.me/new_hayastan2026farsi" },
   { flag: "🇮🇷", url: "t.me/mirin2026farsi" },
-  { flag: "🇹🇷", url: "t.me/new_hayastan266turk" },
+  { flag: "🇹🇷", url: "t.me/new_hayastan2026tur" },
 ];
 
 export function LanguageSection() {
